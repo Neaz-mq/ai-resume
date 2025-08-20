@@ -7,7 +7,6 @@ import { usePuterStore } from 'lib/puter';
 import { convertPdfToImage } from 'lib/pdf2img';
 import { generateUUID } from 'lib/utils';
 
-
 const Upload = () => {
     const { auth, isLoading, fs, ai, kv } = usePuterStore();
     const navigate = useNavigate();
